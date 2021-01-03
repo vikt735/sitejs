@@ -13,8 +13,8 @@ const call = () => {
             </div>
             <div class="container">
             <h2 class="textBg title_h2 mb">${title}</h2>
-            <p class="textBg">${text}</p>
-            <div class="mt_1em">
+            <p class="textBg ptb">${text}</p>
+            <div class="mt_1em ">
                 <a href=${book} download class="button">${btn}</a>
             </div>
             </div>

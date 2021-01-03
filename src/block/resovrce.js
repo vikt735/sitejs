@@ -13,7 +13,7 @@ const resovrce = () => {
                     <div class="box__col2 mb">
                         <h2 class="textBg title_h2">${title}</h2>
                         <h2 class="textBg title_h2 mb">${title2}</h2>
-                        <p class="textBg">${text}</p>
+                        <p class="textBg ptb">${text}</p>
                         <div class="mt_1em">
                             <a href=${book} download class="button">${btn}</a>
                         </div>

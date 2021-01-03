@@ -45,7 +45,7 @@ const clerksy = () => {
                         </div>
                     </div>
                 </div>
-                <div class="mb">
+                <div class="ptb">
                     <a href=${book} download class="button">${button}</a>
                 </div>
             </div>
