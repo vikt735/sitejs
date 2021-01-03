@@ -3,9 +3,9 @@ const call = () => {
     const title = 'Get Started With Clerksy';
     const text = 'Make sure your business puts people first.';
     const btn = 'Book a Free Discovery Call';
-    const imgBg = '../assets/images/call/image1.png';
-    const imgBg2 = '../assets/images/call/image2.png';
-    const book = '../assets/book/discrete.pdf';
+    const imgBg = 'assets/images/call/image1.png';
+    const imgBg2 = 'assets/images/call/image2.png';
+    const book = 'assets/book/discrete.pdf';
     const section9HTML = `
         <section class="started">
             <div class="hide">

@@ -1,6 +1,6 @@
 const description = () => {
-    const img1 = '../assets/images/description/img1.png',
-        img2 = '../assets/images/description/img2.png',
+    const img1 = 'assets/images/description/img1.png',
+        img2 = 'assets/images/description/img2.png',
         title1 = 'Put the human back in HR.',
         title2 = 'You don’t have to play all the parts.',
         text1 = 'Your employees are the real stars. Show the love and help them perform!',

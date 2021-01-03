@@ -3,22 +3,22 @@ const qvality = () => {
     const title3 = 'HR Production of the Highest Quality';
     const cards = [
         {
-            icon: '../assets/images/qvality/item1.svg',
+            icon: 'assets/images/qvality/item1.svg',
             text: 'Educates & Informs ',
             text2: 'Employee Expectations',
         },
         {
-            icon: '../assets/images/qvality/item2.svg',
+            icon: 'assets/images/qvality/item2.svg',
             text: 'Protects Your ',
             text2: 'Business Just in Case',
         },
         {
-            icon: '../assets/images/qvality/item3.svg',
+            icon: 'assets/images/qvality/item3.svg',
             text: 'Manages & Stores ',
             text2: 'Important Documents'
         },
         {
-            icon: '../assets/images/qvality/item4.svg',
+            icon: 'assets/images/qvality/item4.svg',
             text: 'Create a Healthy ',
             text2: 'Work Environment'
         },

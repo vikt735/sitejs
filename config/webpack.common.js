@@ -54,7 +54,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             title: 'clerksy',
-            favicon: paths.src + '/icons/favicon.png',
+            favicon: paths.src + '/assets/icons/favicon.png',
             template: paths.src + '/template.html',
             filename: 'index.html', 
             }),

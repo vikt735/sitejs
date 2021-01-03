@@ -2,11 +2,11 @@ const partners = () => {
     const section2El = document.querySelector('.root');
     const title2 = 'We partner with the best';
     const icons = [
-        '../assets/images/partners/icon1.svg',
-        '../assets/images/partners/icon2.svg',
-        '../assets/images/partners/icon3.svg',
-        '../assets/images/partners/icon4.svg',
-        '../assets/images/partners/icon5.svg'
+        'assets/images/partners/icon1.svg',
+        'assets/images/partners/icon2.svg',
+        'assets/images/partners/icon3.svg',
+        'assets/images/partners/icon4.svg',
+        'assets/images/partners/icon5.svg'
     ];
 
     const section2HTML = `

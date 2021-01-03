@@ -1,13 +1,13 @@
 const footer = () => {
     const footerEl = document.querySelector('.root');
-    const logoFooter = '../assets/images/footer/logofooter.svg',
+    const logoFooter = 'assets/images/footer/logofooter.svg',
             descr = 'A people company.',
             copy = '&copy; 2020 Clerksy, Inc. Clerksy is a registered trademark of Clerksy, Inc.';
 const social = [
-    '../assets/images/footer/f.svg',
-    '../assets/images/footer/t.svg',
-    '../assets/images/footer/in.svg',
-    '../assets/images/footer/i.svg'
+    'assets/images/footer/f.svg',
+    'assets/images/footer/t.svg',
+    'assets/images/footer/in.svg',
+    'assets/images/footer/i.svg'
 ];
 const menu = [
     'Privacy Policy',

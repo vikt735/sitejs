@@ -12,8 +12,8 @@ const clerksy = () => {
     const usd = '$969 USD';
     const time = '5 minutes';
     const time2 = '24 hours';
-    const arrow = '../assets/images/clerksy/arrow1.svg';
-    const arrow2 = '../assets/images/clerksy/arrow2.svg';
+    const arrow = 'assets/images/clerksy/arrow1.svg';
+    const arrow2 = 'assets/images/clerksy/arrow2.svg';
     const book = '../assets/book/discrete.pdf';
     const section7HTML = `
         <section class="colorBgBeige pt">

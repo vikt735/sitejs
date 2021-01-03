@@ -4,7 +4,7 @@ const staff = () => {
     const tit4 = 'sizes. Find the right fit.';
     const text4 = 'Focus on casting and screening. Let Clerksy handle contracts, resolve any on set-conflicts ';
     const text4_2 = 'and make sure you are compliant with work and safety boards.';
-    const img4 = '../assets/images/staff/img.png';
+    const img4 = 'assets/images/staff/img.png';
     const section4HTML = `
         <section class="colorBgBeige pt">
             <div class="container">

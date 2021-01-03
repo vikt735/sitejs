@@ -5,7 +5,7 @@ const interest = () => {
     const items = [
         {
             
-            icon: '../assets/images/interest/ico1.svg',
+            icon: 'assets/images/interest/ico1.svg',
             head1: 'Protect Your',
             head2: 'Company',
             lists: {
@@ -16,7 +16,7 @@ const interest = () => {
 
         },
         {
-            icon: '../assets/images/interest/ico2.svg',
+            icon: 'assets/images/interest/ico2.svg',
             head: 'Set Your Employees ',
             head2: 'Up For Success',
             lists: {
@@ -27,7 +27,7 @@ const interest = () => {
         },
         {
 
-            icon: '../assets/images/interest/ico3.svg',
+            icon: 'assets/images/interest/ico3.svg',
             head: 'Know Your Industry\'s ',
             head2: 'Legal Landscape',
             lists: {

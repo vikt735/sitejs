@@ -1,11 +1,11 @@
 
 const header = () => {
-    const logo = '../assets/images/header/logo.svg';
+    const logo = 'assets/images/header/logo.svg';
     const login = 'Log in';
     const tel = '844-332-6440';
     const title = 'Running the show has never been so easy.';
     const text = 'Ready to put the human back in HR? Clerksy helps you set the stage with an inclusive and compliant workplace.';
-    const imgBg = '../assets/images/header/Frame.png';
+    const imgBg = 'assets/images/header/Frame.png';
     const btn = 'Get Started';
 
 
