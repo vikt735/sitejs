@@ -1,0 +1,19 @@
+
+.nav {
+    padding: 1.25em 0;
+    @media (min-width: 75em){
+        @include flexSB;
+    }
+    &__link {
+        margin: 1em;
+    }
+    &__btn {
+        margin-top: 1em;
+    }
+}
+.img{
+    margin-bottom: -1.3em;
+    @media (min-width: 75em) {
+        margin-bottom: -2em;
+    }      
+}

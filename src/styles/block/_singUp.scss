@@ -1,0 +1,50 @@
+.sing {
+    @media (min-width: 62em) {
+        @include flex;
+    }
+    &__col1 {
+        @media (min-width: 62em) {
+            flex: 1 1 50%;
+        }
+        
+    }
+    &__col2 {
+        @media (min-width: 62em) {
+            flex: 1 1 50%;
+        }
+    }
+    &__up {
+        @media (min-width: 20em) {
+            @include flex;
+            justify-content: center;
+        }
+    }
+    &__input {
+        border: 0.2em solid var(--colorGreen, #163A24);
+        border-radius: 20em;
+        outline: none;
+        padding: 1em;
+        margin-bottom: 0.5em;
+        @media (min-width: 20em) {
+            width: 15em;
+            height: 3.2em;
+            padding: 0.2em 5em 0.2em 0.5em;
+            margin-bottom: 0;
+        }
+        @media (min-width: 36em) {
+            width: 20em;
+            padding: 0.8em 5.8em 0.8em 1em ;
+            
+        }
+        
+    }
+    &__left{
+        @media (min-width: 20em) {
+            margin-left: -5em;
+        }
+        
+    }
+    &__link {
+        color: var(--colorYeloow, #F7BC28);
+    }
+}

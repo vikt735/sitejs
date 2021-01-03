@@ -1,0 +1,13 @@
+.icons {
+    @media (min-width: 62em) {
+        @include flexSB;
+    }
+    &__link {
+        @media (min-width: 62em) {  
+            margin: 0 2em;
+        }
+    }
+    &__link img{
+        padding: 0.9em;
+    }
+}

@@ -1,0 +1,5 @@
+.cards {
+    @media (min-width: 62em) {
+        @include flexSB;
+    }
+}

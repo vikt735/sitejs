@@ -1,0 +1,32 @@
+.blocks {
+    padding: 1.5em 0;
+    @media (min-width: 62em) {
+        @include flexSB;
+        -webkit-box-align: inherit;
+        -ms-flex-align: inherit;
+        align-items: inherit;
+    }
+}
+.card {
+    box-shadow: 0 0 1em var(--colorBgBeige, #F2EFE6);
+    background-color: var(--colorBgBeige, #F2EFE6);
+    margin: 1em 0;
+    padding: 2em 1em;
+    text-align: left;
+    @media (min-width: 36em) {
+        text-align: center;
+    }
+    @media (min-width: 62em) {
+        flex: 1 1 30%;
+        padding: 2.5em 1em;
+        margin: 1em 2em;
+        text-align: left;
+    }
+    &__h4 {
+        padding-left: 1.2em;
+    }
+    
+    
+    
+
+}

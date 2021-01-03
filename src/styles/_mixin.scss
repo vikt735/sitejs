@@ -1,0 +1,43 @@
+@mixin border-radius($radius) {        // Префиксы для:
+    -webkit-border-radius: $radius;    // Chrome и Safari
+       -moz-border-radius: $radius;    // Firefox
+        -ms-border-radius: $radius;    // Internet Explorer
+         -o-border-radius: $radius;    // Opera
+            border-radius: $radius;    // Стандартный CSS
+}
+// Пример использования миксина border-radius после его создания
+//.box { @include border-radius(10px); }
+@mixin button {
+    @include border-radius(30px);
+    padding: 0.94em 1.56em;
+    background-color: var(--colorBtn, #198C36);
+    color: var(--colorText, #fff);
+    border: none;
+}
+@mixin flexible {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+@mixin flexSB  {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+@mixin flex  {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}

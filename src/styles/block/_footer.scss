@@ -1,0 +1,36 @@
+.footer {
+    padding: 1.5em 0;
+    &__row {
+        @media (min-width: 48em) {
+            @include flexSB;
+        }
+    }
+    &__line {
+        height: 0.1em;
+        background-color: var(--colorBtn, #198C36);
+    }
+
+    &__icon {
+        margin: 0.8em 1em ;
+        @media (min-width: 62em) {
+            margin: 1em 1.5em;
+        }
+        
+    }
+    
+    &__menu {
+        margin-top: 1em;
+        @media (max-width: 48em) {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    &__nav {
+
+        margin: 0.5em 1em ;
+        color: var(--colorYeloow, #F7BC28);
+        @media (min-width: 62em) {
+            margin: 1em;
+        }
+    }
+}

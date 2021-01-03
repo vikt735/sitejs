@@ -1,0 +1,32 @@
+.time {
+    @media (min-width: 62em) {
+        @include flexSB;
+    }
+    &__col1 {
+        @media (min-width: 75em) {
+            flex: 1 1 25%;
+        }
+    }
+    &__col2 {
+        @media (min-width: 75em) {
+            flex: 1 1 12.5%;
+        }
+    }
+    &__col3 {
+        @media (min-width: 75em) {
+            flex: 1 1 25%;
+        }
+    }
+    &__col4 {
+        @media (min-width: 75em) {
+            flex: 1 1 12.5%;
+        }
+    }
+    &__col5 { 
+        @media (min-width: 75em) {
+            flex: 1 1 25%;
+        }
+    }
+    
+    
+}
