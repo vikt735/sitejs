@@ -60,8 +60,7 @@ const header = () => {
         if(e.target == modal) {
             modal.style.display = 'none';
         }
-    }
-    
+    };
     
 };
 
