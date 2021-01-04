@@ -12,20 +12,21 @@ import singUp from './block/singUp';
 import footer from './block/footer';
 import './styles/index.scss';
 
-function init () {
-    return header(), 
-            description(), 
-            partners(), 
-            qvality(), 
-            staff(),
-            training(),
-            interest(),
-            clerksy(),
-            resovrce(),
-            call(),
-            singUp(),
-            footer();
+function init ( ) {
+return    header(), 
+    description(), 
+    partners(), 
+    qvality(), 
+    staff(),
+    training(),
+    interest(),
+    clerksy(),
+    resovrce(),
+    call(),
+    singUp(),
+    footer();
 }
 init();
+
 
 

@@ -1,6 +1,6 @@
 const partners = () => {
     const section2El = document.querySelector('.root');
-    const title2 = 'We partner with the best';
+    const title = 'We partner with the best';
     const icons = [
         'assets/images/partners/icon1.svg',
         'assets/images/partners/icon2.svg',
@@ -12,7 +12,7 @@ const partners = () => {
     const section2HTML = `
         <section>
             <div class="container">
-                <h2 class="textBg title_h2 mb">${title2}</h2>
+                <h2 class="textBg title_h2 mb">${title}</h2>
                 
                 <div class="icons">
 

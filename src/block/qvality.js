@@ -1,6 +1,6 @@
 const qvality = () => {
     const section3El = document.querySelector('.root');
-    const title3 = 'HR Production of the Highest Quality';
+    const title = 'HR Production of the Highest Quality';
     const cards = [
         {
             icon: 'assets/images/qvality/item1.svg',
@@ -28,7 +28,7 @@ const qvality = () => {
     const section3HTML = `
         <section class="bgColor pt">
             <div class="container">
-                <h2 class="title_h2 mb">${title3}</h2>
+                <h2 class="title_h2 mb">${title}</h2>
                 <div class="cards">
                     
                 </div>

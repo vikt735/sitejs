@@ -1,6 +1,6 @@
 const interest = () => {
-    const titil6 = 'Consider everyone\' s best interest';
-    const text6 = 'HR is for everyone. Clerksy can help you.';
+    const title = 'Consider everyone\' s best interest';
+    const text = 'HR is for everyone. Clerksy can help you.';
     const section6El = document.querySelector('.root');
     const items = [
         {
@@ -40,8 +40,8 @@ const interest = () => {
     const section6HTML = `
         <section>
             <div class="container">
-                <h2 class="textBg title_h2 mb">${titil6}</h2>
-                <p class="textBg">${text6}</p>
+                <h2 class="textBg title_h2 mb">${title}</h2>
+                <p class="textBg">${text}</p>
                 <div class="blocks">
 
                 </div>
