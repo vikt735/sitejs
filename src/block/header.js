@@ -1,3 +1,4 @@
+import {func} from '../module/func';
 
 const header = () => {
     const logo = 'assets/images/header/logo.svg';
@@ -7,8 +8,6 @@ const header = () => {
     const text = 'Ready to put the human back in HR? Clerksy helps you set the stage with an inclusive and compliant workplace.';
     const imgBg = 'assets/images/header/Frame.png';
     const btn = 'Get Started';
-
-
     const headerEl = document.querySelector('.root');
     
     const headerHtml = `
@@ -44,24 +43,8 @@ const header = () => {
             
     `;
     headerEl.insertAdjacentHTML('afterbegin', headerHtml);
-    const modal = document.querySelector('.modal');
-    const closeBtn = document.querySelector('.modal__close');
-    const navBtn = document.querySelector('.nav__btn');
-    const header = document.querySelector('header');
-    const showModal = () => {
-        modal.style.display = 'block';
-    };
-    const hideModal = () => {
-        modal.style.display = 'none';
-    }
-    navBtn.addEventListener('click', showModal);
-    closeBtn.addEventListener('click', hideModal);
-    window.onclick = (e) => {
-        if(e.target == modal) {
-            modal.style.display = 'none';
-        }
-    };
-    
+
+    func('.nav__btn', '.modal', '.modal__close'); 
 };
 
 export default header;

@@ -26,7 +26,6 @@ const interest = () => {
             } 
         },
         {
-
             icon: 'assets/images/interest/ico3.svg',
             head: 'Know Your Industry\'s ',
             head2: 'Legal Landscape',

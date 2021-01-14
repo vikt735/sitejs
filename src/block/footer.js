@@ -48,13 +48,11 @@ const menu = [
     footerEl.insertAdjacentHTML('beforeend', footerHTML);
 
     social.forEach(key => {
-        console.log(key);
         const linkBlock = document.querySelector('.footer__link');
         const link = `<img class="footer__icon" src=${key} alt="social">`;
         linkBlock.insertAdjacentHTML('beforeend', link);
     });
     menu.forEach(key => {
-        console.log(key);
         const menuBlock = document.querySelector('.footer__menu');
         const menu = `<a class="textBg footer__nav" href="#">${key}</a>`;
         menuBlock.insertAdjacentHTML('beforeend', menu);
